@@ -40,9 +40,12 @@
     
 }
 ```
+
 ![某宝.gif](http://upload-images.jianshu.io/upload_images/1899979-82d988e79bc993be.gif?imageMogr2/auto-orient/strip)
 
+
 * 模仿简书
+
 ![简书.gif](http://upload-images.jianshu.io/upload_images/1899979-b0afca0226221b83.gif?imageMogr2/auto-orient/strip)
 
 * 模仿熊猫TV 
