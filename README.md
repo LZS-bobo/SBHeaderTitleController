@@ -47,4 +47,4 @@
 
 * 模仿熊猫TV 
 标题按钮栏可以滚动 能够快速添加和删除
-![熊猫TV.gif](http://upload-images.jianshu.io/upload_images/1899979-09a2152b77ee1f65.gif?imageMogr2/auto-orient/strip)gif?imageMogr2/auto-orient/strip)
+![熊猫TV.gif](http://upload-images.jianshu.io/upload_images/1899979-09a2152b77ee1f65.gif?imageMogr2/auto-orient/strip)
