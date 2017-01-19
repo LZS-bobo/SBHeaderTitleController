@@ -51,10 +51,21 @@ typedef NS_ENUM(NSInteger, SBHeaderViewStyle) {
 ///代理
 @property (weak, nonatomic) id<SBHeaderTitleDelegate> delegate;
 
-///<#des#>
+///标题栏是否可以滚动
 @property (assign, nonatomic) BOOL titlesViewCanScroll;
 
-- (void)setupTitlesButton;
+
+
+/**
+ 更新标题栏
+ */
+- (void)layoutTitlesView;
+
+/**
+ 删除下标index的控制器
+
+ @param index 下标
+ */
 - (void)removeChildViewControllerWithIndex:(NSInteger)index;
 
 

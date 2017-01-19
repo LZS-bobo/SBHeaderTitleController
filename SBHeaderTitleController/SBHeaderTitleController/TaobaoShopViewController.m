@@ -25,6 +25,7 @@
     UIImageView *imageView = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, 0, 100)];
     imageView.contentMode = UIViewContentModeScaleToFill;
     imageView.image = [UIImage imageNamed:@"taobao"];
+    
     self.headerView = imageView;
     self.headerViewStyle = SBHeaderViewStyleBottom;
 }

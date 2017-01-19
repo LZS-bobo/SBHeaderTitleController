@@ -33,15 +33,12 @@
 @property (nonatomic, strong) NSMutableArray *childScrollViews;
 ///是否是悬浮状态
 @property (assign, nonatomic, getter = isHover) BOOL hover;
-
 ///记录上一次点
 @property (assign, nonatomic) CGPoint lastPoint;
 ///是否正在拖拽
 @property (assign, nonatomic) BOOL topViewDragging;
-
 ///记录headerView控制SBHeaderViewStyle的约束 样式改变时移除约束
 @property (strong, nonatomic) NSArray *constraints;
-
 ///titleBtns
 @property (strong, nonatomic) NSMutableArray *titleBtns;
 
@@ -49,7 +46,14 @@
 
 @implementation SBHeaderTitleController
 
+
+
 #pragma mark - ----------Public-----------
+
+- (void)layoutTitlesView
+{
+    [self setupTitlesButton];
+}
 
 /**
  移除index 的子控制器
@@ -441,7 +445,7 @@
 
 
 
-#pragma mark - UIScrollViewDelegate
+#pragma mark - ----------UIScrollViewDelegate-----------
 /**
  * 停止滚动的时候调用
  */
